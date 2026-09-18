@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CampusFlow - Project Report</title>
+<style>
+    @page {
+        size: A4;
+        margin: 20mm;
+    }
+    body {
+        font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+        color: #1a202c;
+        line-height: 1.6;
+        margin: 0;
+        padding: 40px;
+        background-color: #ffffff;
+    }
+    .cover-page {
+        text-align: center;
+        padding: 100px 20px 80px 20px;
+        border: 2px solid #2b6cb0;
+        border-radius: 8px;
+        margin-bottom: 60px;
+        page-break-after: always;
+        background: linear-gradient(180deg, #f7fafc 0%, #edf2f7 100%);
+    }
+    .cover-badge {
+        display: inline-block;
+        background-color: #2b6cb0;
+        color: white;
+        padding: 6px 16px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 25px;
+    }
+    h1.project-title {
+        font-size: 32px;
+        color: #1a365d;
+        margin: 10px 0 20px 0;
+        font-weight: 800;
+    }
+    p.subtitle {
+        font-size: 18px;
+        color: #4a5568;
+        margin-bottom: 50px;
+    }
+    .cover-meta {
+        margin: 0 auto;
+        max-width: 500px;
+        text-align: left;
+        background: white;
+        padding: 24px;
+        border-radius: 6px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        border: 1px solid #e2e8f0;
+    }
+    .cover-meta table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .cover-meta td {
+        padding: 8px 12px;
+        font-size: 15px;
+    }
+    .cover-meta td.label {
+        font-weight: 600;
+        color: #2d3748;
+        width: 40%;
+    }
+    h2 {
+        color: #2b6cb0;
+        border-bottom: 2px solid #e2e8f0;
+        padding-bottom: 8px;
+        margin-top: 40px;
+        font-size: 22px;
+    }
+    h3 {
+        color: #2d3748;
+        margin-top: 25px;
+        font-size: 18px;
+    }
+    p, li {
+        font-size: 15px;
+        color: #2d3748;
+    }
+    table.content-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 14px;
+    }
+    table.content-table th, table.content-table td {
+        border: 1px solid #cbd5e0;
+        padding: 10px 14px;
+        text-align: left;
+    }
+    table.content-table th {
+        background-color: #ebf8ff;
+        color: #2b6cb0;
+        font-weight: 700;
+    }
+    table.content-table tr:nth-child(even) {
+        background-color: #f7fafc;
+    }
+    pre, code {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    }
+    pre {
+        background-color: #1a202c;
+        color: #edf2f7;
+        padding: 16px;
+        border-radius: 6px;
+        overflow-x: auto;
+        font-size: 13px;
+        line-height: 1.45;
+    }
+    .diagram-box {
+        background-color: #f7fafc;
+        border: 1px solid #cbd5e0;
+        border-left: 4px solid #3182ce;
+        padding: 15px;
+        margin: 20px 0;
+        font-family: monospace;
+        white-space: pre;
+        font-size: 12.5px;
+        line-height: 1.35;
+        overflow-x: auto;
+    }
+    .callout {
+        background-color: #ebf8ff;
+        border-left: 4px solid #3182ce;
+        padding: 14px 18px;
+        margin: 20px 0;
+        border-radius: 0 4px 4px 0;
+    }
+    .page-break {
+        page-break-after: always;
+    }
+</style>
+</head>
+<body>
+
+<!-- 1. COVER PAGE -->
+<div class="cover-page">
+    <div class="cover-badge">VITyarthi Flipped Course Evaluation</div>
+    <h1 class="project-title">CampusFlow: Smart Campus Resource Allocation & Event Management Engine</h1>
+    <p class="subtitle">A Robust, Command-Line-Driven Java System for Institutional Facility & Event Governance</p>
+    
+    <div class="cover-meta">
+        <table>
+            <tr>
+                <td class="label">Student Name:</td>
+                <td><strong style="color: #1a365d; font-size: 16px;">M T Akash Ayyappa</strong></td>
+            </tr>
+            <tr>
+                <td class="label">Registration No:</td>
+                <td><strong style="color: #2b6cb0; font-size: 16px;">24BCY10020</strong></td>
+            </tr>
+            <tr>
+                <td class="label">Course Domain:</td>
+                <td>Java Programming / Object-Oriented Software Engineering</td>
+            </tr>
+            <tr>
+                <td class="label">Project Title:</td>
+                <td>CampusFlow System</td>
+            </tr>
+            <tr>
+                <td class="label">Evaluation Type:</td>
+                <td>Build Your Own Project (Flipped Evaluation)</td>
+            </tr>
+            <tr>
+                <td class="label">Architecture:</td>
+                <td>Modular Layered Architecture (CLI/Service/Strategy/DataStore)</td>
+            </tr>
+            <tr>
+                <td class="label">Submission Date:</td>
+                <td>September 2026</td>
+            </tr>
+            <tr>
+                <td class="label">Platform:</td>
+                <td>VITyarthi Platform & GitHub</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!-- 2. INTRODUCTION -->
+<h2>2. Introduction</h2>
+<p>
+Modern university campuses encompass sprawling academic and co-curricular infrastructure spanning auditoriums, high-capacity seminar halls, specialized research computing labs, smart classrooms, and athletic complexes. As student organizations, academic departments, and administrative bodies concurrently organize hackathons, symposiums, guest lectures, and semester examinations, the demand for physical campus infrastructure frequently outstrips available capacity.
+</p>
+<p>
+Traditional reservation approaches rely on fragmented mechanisms such as paper forms, disjointed email chains, or static shared spreadsheets. These legacy workflows suffer from catastrophic operational inefficiencies: frequent double-bookings during peak hours, arbitrary resource allocation lacking transparent prioritization, unmanaged event registrations that breach venue fire-safety limits, and a complete absence of auditable historical records.
+</p>
+<p>
+<strong>CampusFlow</strong> is an enterprise-grade, terminal-executable Java application engineered to automate and optimize campus resource allocation. Grounded in rigorous Object-Oriented Programming (OOP) paradigms, algorithmic interval math, the Strategy Design Pattern, and Role-Based Access Control (RBAC), CampusFlow provides an auditable, deterministic, and high-performance solution for modern institutional infrastructure management.
+</p>
+
+<!-- 3. PROBLEM STATEMENT -->
+<h2>3. Problem Statement</h2>
+<p>Campus facility coordination in higher education institutions suffers from five critical failure modes:</p>
+<ol>
+    <li><strong>Time-Slot Collisions & Double-Bookings:</strong> Without automated mathematical interval intersection checks, conflicting reservations are routinely scheduled for the same physical room on the same day.</li>
+    <li><strong>Subjective & Untransparent Priority Rules:</strong> When multiple entities request the same facility concurrently, decisions are made arbitrarily rather than through objective, policy-driven prioritization algorithms.</li>
+    <li><strong>Decoupling of Facility Reservation from Event Ticketing:</strong> Facilities are booked without binding to participant registration numbers, resulting in overbooked halls, safety hazards, and poor attendee experiences.</li>
+    <li><strong>Administrative Delays & Lack of Utilization Telemetry:</strong> Facility managers spend hours reconciling requests manually and possess no analytics on space utilization rates or maintenance schedules.</li>
+    <li><strong>Untracked Modifications & Zero Audit Accountability:</strong> Booking updates, cancellations, and approvals lack immutable logging, making post-facto accountability impossible.</li>
+</ol>
+<p>
+CampusFlow completely eliminates these issues by providing continuous interval collision validation, role-weighted strategy scoring, capacity-bounded attendee registration, and append-only audit persistence.
+</p>
+
+<!-- 4. FUNCTIONAL REQUIREMENTS -->
+<h2>4. Functional Requirements</h2>
+<p>The system is organized into five primary functional modules:</p>
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>Module Name</th>
+            <th>Target Functionality</th>
+            <th>Key Operations & Capabilities</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Module 1: Identity & RBAC</strong></td>
+            <td>User Authentication & Access Control</td>
+            <td>Role-based privilege boundaries (Admin, Faculty, Student); credential validation; session management; administrative approval authorization.</td>
+        </tr>
+        <tr>
+            <td><strong>Module 2: Facility Inventory</strong></td>
+            <td>Resource Catalog & Maintenance</td>
+            <td>Structured catalog across 5 resource types; dynamic querying by capacity and type; real-time maintenance mode toggles with reason logging.</td>
+        </tr>
+        <tr>
+            <td><strong>Module 3: Scheduling & Conflict Detection</strong></td>
+            <td>Reservation & Interval Validation</td>
+            <td>Date & time interval overlap mathematics; strategy-based priority scoring; lifecycle state machine (<code>PENDING</code>, <code>CONFIRMED</code>, <code>REJECTED</code>, <code>CANCELLED</code>).</td>
+        </tr>
+        <tr>
+            <td><strong>Module 4: Event & RSVP Ticketing</strong></td>
+            <td>Capacity Management & RSVPs</td>
+            <td>Links events to confirmed reservations; strictly enforces venue seating limits; thread-safe attendee RSVP registration and roster queries.</td>
+        </tr>
+        <tr>
+            <td><strong>Module 5: Analytics & Audit</strong></td>
+            <td>Operational Metrics & Persistence</td>
+            <td>Computes real-time facility utilization, approval ratios, and high-demand hotspots; exports flat-file audit snapshots to disk.</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="page-break"></div>
+
+<!-- 5. NON-FUNCTIONAL REQUIREMENTS -->
+<h2>5. Non-Functional Requirements</h2>
+<ul>
+    <li><strong>Performance:</strong> Sub-millisecond data lookups ($O(1)$ operations via <code>ConcurrentHashMap</code>). Conflict validation scans active reservations with mathematical interval tests ($O(1)$ per comparison).</li>
+    <li><strong>Security & RBAC:</strong> Rigid role verification guarding admin endpoints; defensive encapsulation preventing direct state mutability.</li>
+    <li><strong>Reliability & Error Handling:</strong> Comprehensive checked exception hierarchy (<code>CampusFlowException</code>, <code>ResourceConflictException</code>, <code>ValidationException</code>, <code>UnauthorizedException</code>) with graceful terminal error recovery.</li>
+    <li><strong>Maintainability & Modularity:</strong> Full adherence to SOLID principles; clean separation across Model, Service, Strategy, Repository, and Presentation layers.</li>
+    <li><strong>Portability & Zero External Dependencies:</strong> Fully executable on any Java SE runtime (Java 8 through 21) without requiring external JARs. Features dual CLI modes (Interactive + Automated <code>--demo</code>).</li>
+</ul>
+
+<!-- 6. SYSTEM ARCHITECTURE -->
+<h2>6. System Architecture</h2>
+<div class="diagram-box">
++---------------------------------------------------------------------------------+
+|                               PRESENTATION LAYER                                |
+|        CampusFlowApp (Main)  |  CliMenu (Interactive)  |  ConsoleColors        |
++---------------------------------------------------------------------------------+
+                                         |
+                                         v
++---------------------------------------------------------------------------------+
+|                                 SERVICE LAYER                                   |
+|   AuthService   |   FacilityService   |   BookingService   |   EventService    |
+|                         AnalyticsService                                        |
++---------------------------------------------------------------------------------+
+                         |                               |
+                         v                               v
++------------------------------------+   +----------------------------------------+
+|          STRATEGY LAYER            |   |           DOMAIN MODEL LAYER           |
+|  PriorityAllocationStrategy (Intf) |   |  User, Facility, TimeSlot, Booking,    |
+|  StandardAllocationStrategy        |   |  CampusEvent, Role, ResourceType       |
+|  FacultyPriorityAllocationStrategy |   |  BookingStatus                         |
++------------------------------------+   +----------------------------------------+
+                         \                               /
+                          \                             /
+                           v                           v
++---------------------------------------------------------------------------------+
+|                              PERSISTENCE LAYER                                  |
+|          DataStore (Concurrent In-Memory)  |  PersistenceManager (File I/O)    |
++---------------------------------------------------------------------------------+
+</div>
+
+<!-- 7. DESIGN DIAGRAMS -->
+<h2>7. Design Diagrams</h2>
+
+<h3>7.1 Use Case Diagram</h3>
+<div class="diagram-box">
+                      +----------------------------------------------------+
+                      |                 CampusFlow System                  |
+                      |                                                    |
+       (Student) ---->| (Browse Facilities & Check Availability)           |
+                      | (Submit Facility Reservation Request)              |
+                      | (View Personal Reservation Status)                 |
+                      | (RSVP / Ticketing for Scheduled Campus Events)     |
+                      |                                                    |
+       (Faculty) ---->| (Submit Priority Academic Booking - Auto Approved) |
+                      | (Create & Publish Campus Event linked to Booking)  |
+                      |                                                    |
+       (Admin)   ---->| (Review Pending Booking Approval Queue)            |
+                      | (Approve or Reject Reservation Request)            |
+                      | (Toggle Facility Maintenance State)                |
+                      | (Generate System Utilization & Demand Analytics)   |
+                      | (Export Timestamped Audit Log Snapshot)            |
+                      +----------------------------------------------------+
+</div>
+
+<h3>7.2 Workflow Diagram: Booking & Conflict Detection</h3>
+<div class="diagram-box">
+[Start Reservation Request]
+           |
+           v
+[Input Facility ID, Date, Start Time, End Time, Purpose]
+           |
+           v
+<Is Facility In Maintenance?> --- YES ---> [Reject: ResourceConflictException]
+           |
+           NO
+           v
+<Does TimeSlot Intersect Existing Active Booking?> --- YES ---> [Reject: ResourceConflictException]
+           |
+           NO
+           v
+[Calculate Priority Weight using Strategy Pattern]
+           |
+           v
+<Is Requester Faculty or Admin?>
+     |                      |
+    YES                     NO
+     |                      |
+     v                      v
+[Status: CONFIRMED]     [Status: PENDING]
+(Auto-Approved)         (Queued for Admin Review)
+     |                      |
+     +----------+-----------+
+                |
+                v
+        [Save to DataStore & Append Audit Log]
+                |
+                v
+              [End]
+</div>
+
+<div class="page-break"></div>
+
+<h3>7.3 Sequence Diagram: Administrator Booking Approval</h3>
+<div class="diagram-box">
+AdminUser          CliMenu          BookingService          DataStore          AuditLog
+    |                 |                    |                    |                  |
+    |--Select Req #-->|                    |                    |                  |
+    |                 |--approveBooking()->|                    |                  |
+    |                 |                    |--findBooking()---->|                  |
+    |                 |                    |<--Return Booking---|                  |
+    |                 |                    |                    |                  |
+    |                 |                    |--Set CONFIRMED---->|                  |
+    |                 |                    |--addAuditLog()----------------------->|
+    |                 |<--Success Return---|                    |                  |
+    |<--Confirm Msg---|                    |                    |                  |
+</div>
+
+<h3>7.4 Class / Component Diagram</h3>
+<div class="diagram-box">
++-------------------------+            +-----------------------------------------+
+|        TimeSlot         |            |                 Booking                 |
++-------------------------+            +-----------------------------------------+
+| - date: LocalDate       |            | - id: String                            |
+| - startTime: LocalTime  |            | - facilityId: String                    |
+| - endTime: LocalTime    |            | - requestedByUserId: String             |
++-------------------------+            | - timeSlot: TimeSlot                    |
+| + overlapsWith(other)   |<-----------| - status: BookingStatus                 |
+| + getDurationMinutes()  |            | - priorityWeight: int                   |
++-------------------------+            +-----------------------------------------+
+                                                            |
++-------------------------+                                 |
+|        Facility         |                                 |
++-------------------------+                                 v
+| - id: String            |            +-----------------------------------------+
+| - name: String          |            |               CampusEvent               |
+| - type: ResourceType    |            +-----------------------------------------+
+| - capacity: int         |            | - eventId: String                       |
+| - underMaintenance: bool|            | - bookingId: String                     |
++-------------------------+            | - maxAttendees: int                     |
+                                       | - registeredAttendeeIds: Set&lt;String&gt;   |
++-------------------------+            +-----------------------------------------+
+|          User           |            | + registerAttendee(studentId): boolean  |
++-------------------------+            +-----------------------------------------+
+| - id: String            |
+| - role: Role            |
+| - department: String    |
++-------------------------+
+</div>
+
+<h3>7.5 Entity-Relationship (ER) Schema Design</h3>
+<div class="diagram-box">
+   +--------------------+             1:N             +--------------------+
+   |       USER         |----------------------------<|      BOOKING       |
+   +--------------------+                             +--------------------+
+   | PK id              |                             | PK id              |
+   |    fullName        |                             | FK requestedBy     |
+   |    email           |                             | FK facilityId      |
+   |    role (ENUM)     |                             |    date            |
+   |    department      |                             |    startTime       |
+   +--------------------+                             |    endTime         |
+             |                                        |    status (ENUM)   |
+             |                                        |    priorityScore   |
+             |                                        +--------------------+
+             |                                                  | 1:1
+             |                                                  |
+             |                1:N                     +--------------------+
+             +--------------------------------------< |    CAMPUS_EVENT    |
+            (RSVP)                                    +--------------------+
+                                                      | PK eventId         |
+                                                      | FK bookingId       |
+                                                      | FK organizerId     |
+                                                      |    title           |
+                                                      |    maxAttendees    |
+                                                      +--------------------+
+</div>
+
+<!-- 8. DESIGN DECISIONS & RATIONALE -->
+<h2>8. Design Decisions & Rationale</h2>
+<ol>
+    <li><strong>Zero External Runtime Dependencies:</strong> Avoided heavy frameworks (Spring Boot, Hibernate) in the runtime execution path. This ensures any evaluation script or terminal environment running standard <code>javac</code> and <code>java</code> can execute the application without dependency resolution or network failures.</li>
+    <li><strong>Strategy Design Pattern for Booking Prioritization:</strong> Implemented <code>PriorityAllocationStrategy</code> with polymorphic concretions (<code>StandardAllocationStrategy</code>, <code>FacultyPriorityAllocationStrategy</code>). This adheres to the Open/Closed Principle, allowing institutional scheduling rules to be customized without rewriting core booking logic.</li>
+    <li><strong>Dual Execution Architecture (Interactive CLI & Automated <code>--demo</code>):</strong> Provides an interactive terminal menu for manual exploration and an automated headless verification suite for script-based grading pipelines.</li>
+    <li><strong>Thread-Safe Concurrency Architecture:</strong> Utilized <code>ConcurrentHashMap</code> and <code>synchronized</code> seat allocation to guarantee that concurrent event registrations cannot exceed facility fire-code capacity.</li>
+</ol>
+
+<!-- 9. IMPLEMENTATION DETAILS -->
+<h2>9. Implementation Details</h2>
+<p>
+The source code comprises 18 modular classes across standard packages:
+</p>
+<ul>
+    <li><code>com.campusflow.model</code>: Core entities (<code>User</code>, <code>Facility</code>, <code>TimeSlot</code>, <code>Booking</code>, <code>CampusEvent</code>, and enums).</li>
+    <li><code>com.campusflow.strategy</code>: Algorithm implementations for booking priority.</li>
+    <li><code>com.campusflow.service</code>: Business rules for authentication, facility cataloging, conflict detection, event RSVPs, and analytics.</li>
+    <li><code>com.campusflow.repository</code>: Thread-safe in-memory store and file persistence manager.</li>
+    <li><code>com.campusflow.exception</code>: Domain-specific checked exceptions.</li>
+    <li><code>com.campusflow.ui</code>: ANSI-colored terminal console navigation.</li>
+</ul>
+
+<div class="callout">
+    <strong>Interval Overlap Mathematics in TimeSlot.java:</strong><br>
+    Two time slots conflict on the same date if and only if:<br>
+    <code>this.startTime.isBefore(other.endTime) &amp;&amp; this.endTime.isAfter(other.startTime)</code>
+</div>
+
+<div class="page-break"></div>
+
+<!-- 10. SCREENSHOTS / RESULTS -->
+<h2>10. Screenshots & Execution Results</h2>
+<p>Below is the verified output from the automated demonstration suite (<code>./run.sh --demo</code>):</p>
+<pre>
+╔════════════════════════════════════════════════════════════╗
+║        CAMPUSFLOW AUTOMATED SYSTEM DEMONSTRATION           ║
+║             Executing Verification Pipeline                ║
+╚════════════════════════════════════════════════════════════╝
+
+[STEP 1] Testing Authentication & RBAC
+ -> Admin authenticated: Dr. Rajesh Sharma (ADM01) - System Administrator [Estate Office]
+ -> Student authenticated: Aarav Patel (STU01) - Student [Computer Science]
+ -> Authentication & Session Management: PASSED
+
+[STEP 2] Querying Facility Inventory
+ -> Total facilities registered: 5
+    [FAC-AUD-01] Sarojini Naidu Central Auditorium (Auditorium, Cap: 600, Loc: Main Campus Block A)
+    [FAC-SEM-02] Aryabhata Seminar Hall (Seminar Hall, Cap: 120, Loc: Science Block B)
+    [FAC-LAB-03] Alan Turing Computing Lab (Computer Lab, Cap: 75, Loc: Tech Tower C)
+    [FAC-CLS-04] Smart Classroom 301 (Smart Classroom, Cap: 90, Loc: Academic Wing D)
+    [FAC-SPT-05] Indoor Badminton Arena (Sports Complex, Cap: 150, Loc: Student Activity Center)
+ -> Facility Inventory Discovery: PASSED
+
+[STEP 3] Booking Creation & Priority Calculation
+ -> Student created reservation: Booking #BKG-9A2E1F | Facility: FAC-SEM-02 | User: STU01 | Slot: 2026-09-21 [14:00 - 17:00] | Status: PENDING | Priority: 10
+ -> Booking Request Workflow: PASSED
+
+[STEP 4] Verifying Conflict Detection Engine
+ -> Attempting overlapping reservation on FAC-SEM-02 at 2026-09-21 [15:00 - 16:00]...
+ -> SUCCESS: Conflict successfully detected and rejected!
+    Caught Exception: Time-slot conflict detected with Booking [BKG-9A2E1F] by User [STU01]
+ -> Conflict Detection Engine: PASSED
+
+[STEP 5] Admin Review & Approval Queue
+ -> Admin approved booking BKG-9A2E1F
+ -> Updated Status: CONFIRMED (Approved by Admin Dr. Rajesh Sharma)
+ -> Approval Workflow: PASSED
+
+[STEP 6] Event Lifecycle & RSVP Ticketing
+ -> Event Created: [EVT-C814D0] VIT Robotics Hackathon 2026 | Org: STU01 | Seats: 0/100 | Published: true
+ -> Attendee Diya Mehta RSVP status: SUCCESS
+ -> Available Seats: 99 / 100
+ -> Event Ticketing & Capacity: PASSED
+
+[STEP 7] Generating Real-Time System Analytics
+=========================================================
+         CAMPUSFLOW SYSTEM ANALYTICS & INSIGHTS          
+=========================================================
+  Total Facilities Managed       : 5
+  Operational Facilities         : 5
+  Facilities Under Maintenance   : 0
+  Total Reservations Logged      : 2
+  Confirmed Active Bookings      : 2
+  System Booking Approval Rate   : 100.0%
+  High Demand Facility Hotspot   : Sarojini Naidu Central Auditorium (FAC-AUD-01)
+=========================================================
+ -> Analytics Calculation: PASSED
+
+[STEP 8] Verifying Persistence & Audit Snapshot
+ -> Audit report written to: ./data/campusflow_audit_report.txt (Size: 2180 bytes)
+ -> State Persistence & Audit Logging: PASSED
+</pre>
+
+<!-- 11. TESTING APPROACH -->
+<h2>11. Testing Approach</h2>
+<p>
+The system includes both standard JUnit 5 test cases and a zero-dependency standalone test runner (<code>StandaloneTestRunner.java</code>) runnable via <code>./test.sh</code>:
+</p>
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>Test ID</th>
+            <th>Target Method / Class</th>
+            <th>Condition Tested</th>
+            <th>Expected Behavior</th>
+            <th>Result</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>TC-01</strong></td>
+            <td><code>TimeSlot.overlapsWith()</code></td>
+            <td>Partially overlapping intervals</td>
+            <td>Returns <code>true</code> (conflict detected)</td>
+            <td><strong>PASS</strong></td>
+        </tr>
+        <tr>
+            <td><strong>TC-02</strong></td>
+            <td><code>TimeSlot.overlapsWith()</code></td>
+            <td>Adjacent contiguous intervals</td>
+            <td>Returns <code>false</code> (valid back-to-back booking)</td>
+            <td><strong>PASS</strong></td>
+        </tr>
+        <tr>
+            <td><strong>TC-03</strong></td>
+            <td><code>AuthService.login()</code></td>
+            <td>Valid credentials</td>
+            <td>Returns authenticated User object</td>
+            <td><strong>PASS</strong></td>
+        </tr>
+        <tr>
+            <td><strong>TC-04</strong></td>
+            <td><code>AuthService.login()</code></td>
+            <td>Incorrect password</td>
+            <td>Throws <code>UnauthorizedException</code></td>
+            <td><strong>PASS</strong></td>
+        </tr>
+        <tr>
+            <td><strong>TC-05</strong></td>
+            <td><code>FacilityService.registerFacility()</code></td>
+            <td>Duplicate facility ID</td>
+            <td>Throws <code>ValidationException</code></td>
+            <td><strong>PASS</strong></td>
+        </tr>
+        <tr>
+            <td><strong>TC-06</strong></td>
+            <td><code>BookingService.requestBooking()</code></td>
+            <td>Clashing reservation slot</td>
+            <td>Throws <code>ResourceConflictException</code></td>
+            <td><strong>PASS</strong></td>
+        </tr>
+        <tr>
+            <td><strong>TC-07</strong></td>
+            <td><code>BookingService.approveBooking()</code></td>
+            <td>Admin approval transition</td>
+            <td>Status changes from <code>PENDING</code> to <code>CONFIRMED</code></td>
+            <td><strong>PASS</strong></td>
+        </tr>
+        <tr>
+            <td><strong>TC-08</strong></td>
+            <td><code>EventService.createEvent()</code></td>
+            <td>Capacity exceeds facility limit</td>
+            <td>Throws <code>ValidationException</code></td>
+            <td><strong>PASS</strong></td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- 12. CHALLENGES FACED -->
+<h2>12. Challenges Faced</h2>
+<ol>
+    <li><strong>Boundary Overlap Precision:</strong> Accurately handling edge-to-edge slots (e.g., Slot 1 ending at 12:00 and Slot 2 starting at 12:00) without generating false conflicts. Resolved by adopting strict half-open interval checks.</li>
+    <li><strong>Evaluator Pipeline Autonomy:</strong> Overcoming the limitation of automated evaluation scripts timing out on interactive console inputs by implementing the headless <code>--demo</code> flag.</li>
+    <li><strong>Zero-Dependency Execution:</strong> Ensuring full compilation and execution on basic terminal environments where Maven or external JARs might not be pre-installed.</li>
+</ol>
+
+<!-- 13. LEARNINGS & KEY TAKEAWAYS -->
+<h2>13. Learnings & Key Takeaways</h2>
+<ul>
+    <li>Practical implementation of behavioral design patterns (Strategy Pattern) to decouple business policy from core transaction logic.</li>
+    <li>Thread-safe data management in Java using concurrent collections and synchronized blocks.</li>
+    <li>Designing software with layered separation of concerns to maximize modularity and testability.</li>
+</ul>
+
+<!-- 14. FUTURE ENHANCEMENTS -->
+<h2>14. Future Enhancements</h2>
+<ul>
+    <li>Integration with physical campus smart locks via IoT MQTT protocols.</li>
+    <li>Automated SMS and email reminders for approved bookings and upcoming event RSVPs.</li>
+    <li>Relational database persistence (PostgreSQL / JDBC connection pooling) for long-term historical records.</li>
+    <li>Spring Boot REST API back-end paired with a modern React web dashboard.</li>
+</ul>
+
+<!-- 15. REFERENCES -->
+<h2>15. References</h2>
+<ol>
+    <li>Bloch, Joshua. <em>Effective Java (3rd Edition)</em>. Addison-Wesley Professional, 2018.</li>
+    <li>Gamma, E., Helm, R., Johnson, R., & Vlissides, J. <em>Design Patterns: Elements of Reusable Object-Oriented Software</em>. Addison-Wesley, 1994.</li>
+    <li>Oracle Java Documentation: <em>Java Platform Standard Edition 8 / 11 / 17 Specification</em>.</li>
+    <li>VITyarthi Project Guidelines Document: <em>BuildYourOwnProjectVITyarthi.pdf</em>.</li>
+</ol>
+
+</body>
+</html>

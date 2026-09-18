@@ -1,0 +1,594 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R] /Count 9 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4707 >>
+stream
+0.5 0.5 0.5 RG 0.5 w 40 805 m 555 805 l S
+BT /F1 8 Tf 40 810 Td (CampusFlow: Smart Campus Resource Allocation Engine | Project Report) Tj ET
+0.5 0.5 0.5 RG 0.5 w 40 45 m 555 45 l S
+BT /F1 8 Tf 40 32 Td (VITyarthi Flipped Course Evaluation) Tj ET
+BT /F1 8 Tf 520 32 Td (Page 1) Tj ET
+BT /F2 18 Tf 0.1 0.25 0.5 rg 40 745 Td (PROJECT REPORT) Tj ET
+BT /F2 13 Tf 0.15 0.35 0.6 rg 40 712 Td (CampusFlow: Smart Campus Resource Allocation & Event Management Engine) Tj ET
+0.8 0.8 0.8 RG 0.5 w 40 684 m 555 684 l S
+BT /F2 11 Tf 0.2 0.2 0.2 rg 40 648 Td (1. Cover Page) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 630 Td (- Student Name: M T Akash Ayyappa) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 618 Td (- Registration Number: 24BCY10020) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 606 Td (- Course Title: Java Programming / Object-Oriented Software Engineering) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 594 Td (- Evaluation Type: Flipped Course Project Evaluation) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 582 Td (- Project Title: CampusFlow: Smart Campus Resource Allocation & Event Management) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 570 Td (Engine) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 558 Td (- Submission Format: Public GitHub Repository & Technical PDF Report) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 546 Td (- Target Domain: Core & Advanced Java / Academic Infrastructure Management) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 534 Td (- Date of Submission: September 2026) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 522 Td (- Academic Platform: VITyarthi Learning Destination) Tj ET
+0.8 0.8 0.8 RG 0.5 w 40 494 m 555 494 l S
+BT /F2 11 Tf 0.2 0.2 0.2 rg 40 458 Td (2. Introduction) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 448 Td (Modern academic institutions manage expansive physical infrastructure to support) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 436 Td (educational, cultural, research, and sporting engagements. As student enrollment) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 424 Td (and extracurricular activities expand, coordinating access to high-demand) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 412 Td (spaces‚Äîsuch as central auditoriums, multimedia seminar halls, high-performance) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 400 Td (computing laboratories, and athletic complexes‚Äîbecomes an increasingly complex) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 388 Td (logistical challenge.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 368 Td (Traditionally, universities rely on decentralized communication channels: paper) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 356 Td (booking forms, department emails, or generic spreadsheet logs. These manual) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 344 Td (mechanisms lack real-time synchronization, resulting in scheduling conflicts,) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 332 Td (under-utilized venues, administrative bottlenecks, and fire-safety compliance) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 320 Td (risks due to unmonitored event attendance.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 300 Td (CampusFlow was conceived as an automated, terminal-executable Java system) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 288 Td (engineered to address these challenges. By grounding its architecture in core) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 276 Td (Object-Oriented Programming \(OOP\) principles, algorithmic interval overlap) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 264 Td (detection, design patterns \(Strategy, Repository, State Machine\), and robust) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 252 Td (Role-Based Access Control \(RBAC\), CampusFlow delivers a deterministic, reliable,) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 240 Td (and auditable solution for campus facility governance.) Tj ET
+0.8 0.8 0.8 RG 0.5 w 40 212 m 555 212 l S
+BT /F2 11 Tf 0.2 0.2 0.2 rg 40 176 Td (3. Problem Statement) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 166 Td (Manual and ad-hoc campus facility reservation workflows introduce five primary) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 154 Td (operational failure modes:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 142 Td (1. Time-Slot Collisions \(Double Bookings\): Lack of continuous mathematical) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 130 Td (conflict detection allows multiple departments or clubs to book the same facility) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 118 Td (during overlapping intervals.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 106 Td (2. Arbitrary Resource Allocation: When multiple groups seek the same physical) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 94 Td (venue simultaneously, decisions are made subjectively without formalized priority) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 82 Td (rules or policy-based scheduling algorithms.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 70 Td (3. Disconnection Between Booking and Public Event Attendance: Facilities are) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 5399 >>
+stream
+0.5 0.5 0.5 RG 0.5 w 40 805 m 555 805 l S
+BT /F1 8 Tf 40 810 Td (CampusFlow: Smart Campus Resource Allocation Engine | Project Report) Tj ET
+0.5 0.5 0.5 RG 0.5 w 40 45 m 555 45 l S
+BT /F1 8 Tf 40 32 Td (VITyarthi Flipped Course Evaluation) Tj ET
+BT /F1 8 Tf 520 32 Td (Page 2) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 770 Td (booked without binding them to participant capacity, leading to unmonitored) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 758 Td (crowding and safety non-compliance.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 746 Td (4. Administrative Overhead & Lack of Visibility: Estate administrators spend hours) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 734 Td (reconciling requests manually and lack automated metrics on facility utilization) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 722 Td (rates or maintenance schedules.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 710 Td (5. Absence of Tamper-Evident Audit Trails: Booking modifications, cancellations,) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 698 Td (and approvals are untracked, preventing retrospective accountability.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 678 Td (CampusFlow directly resolves these problems by providing an automated,) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 666 Td (command-line executable Java engine equipped with interval mathematics,) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 654 Td (strategy-driven priority scoring, capacity-bounded event registration, and an) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 642 Td (immutable audit log.) Tj ET
+0.8 0.8 0.8 RG 0.5 w 40 614 m 555 614 l S
+BT /F2 11 Tf 0.2 0.2 0.2 rg 40 578 Td (4. Functional Requirements) Tj ET
+BT /F2 10 Tf 0.25 0.25 0.25 rg 40 546 Td (Module 1: Identity & Role-Based Access Control \(RBAC\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 538 Td (- User Authentication: Multi-role credential validation \(Admin, Faculty, Student\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 526 Td (with secure session state.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 514 Td (- Privilege Separation:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 502 Td (- Administrator: Full authority to inspect all bookings, approve/reject pending) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 490 Td (student requests, toggle maintenance modes, and export audit trails.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 478 Td (- Faculty: Immediate auto-approval for academic sessions, access to) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 466 Td (faculty-priority scheduling, and event sponsorship.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 454 Td (- Student: Ability to browse available facilities, submit reservation requests to) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 442 Td (the administrative queue, and RSVP for published events.) Tj ET
+BT /F2 10 Tf 0.25 0.25 0.25 rg 40 408 Td (Module 2: Resource Inventory & Facility Governance) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 400 Td (- Facility Categorization: Structured catalog supporting AUDITORIUM, SEMINAR_HALL,) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 388 Td (COMPUTER_LAB, SMART_CLASSROOM, and SPORTS_COMPLEX.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 376 Td (- Dynamic Search & Filtering: Filter spaces by resource type, minimum capacity) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 364 Td (requirements, and operational status.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 352 Td (- Maintenance State Controls: Instant toggling of facility availability with) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 340 Td (mandatory justification logging, preventing reservations during repair windows.) Tj ET
+BT /F2 10 Tf 0.25 0.25 0.25 rg 40 306 Td (Module 3: Scheduling Engine & Conflict Detection) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 298 Td (- TimeSlot Interval Mathematics: Validation of reservation windows \(startTime <) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 286 Td (endTime\) and mathematical interval intersection detection across identical dates.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 274 Td (- Strategy-Based Priority Scoring: Computation of dynamic priority weights based) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 262 Td (on applicant role, duration, and academic purpose using the Strategy Pattern) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 250 Td (\(PriorityAllocationStrategy\).) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 238 Td (- State Machine Lifecycle: Deterministic progression through PENDING, CONFIRMED,) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 226 Td (REJECTED, CANCELLED, and COMPLETED.) Tj ET
+BT /F2 10 Tf 0.25 0.25 0.25 rg 40 192 Td (Module 4: Campus Event Lifecycle & Attendee RSVP Ticketing) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 184 Td (- Booking-to-Event Association: Enforces that an event can only be scheduled) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 172 Td (against a CONFIRMED facility reservation.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 160 Td (- Capacity Boundary Enforcement: Hard validation ensuring maximum event attendee) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 148 Td (capacity never exceeds the host facility‚Äôs physical seating limit.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 136 Td (- Thread-Safe Attendee Roster: Synchronized RSVP registration and cancellation) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 124 Td (preventing overselling.) Tj ET
+BT /F2 10 Tf 0.25 0.25 0.25 rg 40 90 Td (Module 5: Operational Analytics & Audit Persistence) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 82 Td (- Executive Utilization Metrics: Calculation of active vs. maintenance facilities,) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 70 Td (booking counts, approval rates, and highest-demand facility hotspots.) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 4748 >>
+stream
+0.5 0.5 0.5 RG 0.5 w 40 805 m 555 805 l S
+BT /F1 8 Tf 40 810 Td (CampusFlow: Smart Campus Resource Allocation Engine | Project Report) Tj ET
+0.5 0.5 0.5 RG 0.5 w 40 45 m 555 45 l S
+BT /F1 8 Tf 40 32 Td (VITyarthi Flipped Course Evaluation) Tj ET
+BT /F1 8 Tf 520 32 Td (Page 3) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 770 Td (- Snapshot Export: Export of structured state snapshots and chronological audit) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 758 Td (logs to local text storage.) Tj ET
+0.8 0.8 0.8 RG 0.5 w 40 730 m 555 730 l S
+BT /F2 11 Tf 0.2 0.2 0.2 rg 40 694 Td (5. Non-Functional Requirements) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 676 Td (1. Performance & Algorithmic Efficiency:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 664 Td (- In-memory lookups operate in $O\(1\)$ time via ConcurrentHashMap.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 652 Td (- Time-slot conflict detection evaluates interval overlaps mathematically in) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 640 Td ($O\(1\)$ per booking, scanning only active bookings.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 628 Td (2. Security & Data Integrity:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 616 Td (- Strict encapsulation preventing direct state tampering.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 604 Td (- Granular RBAC checks protecting administrative endpoints.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 592 Td (- Defensive copying of collections to preserve internal entity invariance.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 580 Td (3. Reliability & Fault Tolerance:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 568 Td (- Domain-specific checked exception hierarchy \(CampusFlowException,) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 556 Td (ResourceConflictException, ValidationException, UnauthorizedException\).) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 544 Td (- Graceful recovery from malformed terminal input without crashes.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 532 Td (4. Maintainability & Modularity:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 520 Td (- Adheres to SOLID architectural principles.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 508 Td (- Clear decoupling across Model, Service, Strategy, Repository, and CLI) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 496 Td (presentation layers.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 484 Td (5. Portability & Zero External Dependencies:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 472 Td (- Executes across any standard Java SE runtime \(Java 8 through Java 21\) without) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 460 Td (requiring third-party runtime JARs.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 448 Td (- Supports both interactive CLI and non-interactive automated test execution) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 436 Td (\(--demo\).) Tj ET
+0.8 0.8 0.8 RG 0.5 w 40 408 m 555 408 l S
+BT /F2 11 Tf 0.2 0.2 0.2 rg 40 372 Td (6. System Architecture) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 354 Td (CampusFlow follows a classic Layered Architecture with unidirectional dependency) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 342 Td (flow:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 322 Td (```) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 310 Td (+-------------------------------------------------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 298 Td (| PRESENTATION LAYER |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 286 Td (| CampusFlowApp | CliMenu | ConsoleColors |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 274 Td (+-------------------------------------------------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 262 Td (|) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 250 Td (v) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 238 Td (+-------------------------------------------------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 226 Td (| SERVICE LAYER |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 214 Td (| AuthService | FacilityService | BookingService |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 202 Td (| EventService | AnalyticsService |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 190 Td (+-------------------------------------------------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 178 Td (| |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 166 Td (v v) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 154 Td (+-----------------------------+ +-----------------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 142 Td (| STRATEGY LAYER | | DOMAIN MODEL LAYER |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 130 Td (| PriorityAllocationStrategy | | User, Facility, TimeSlot, |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 118 Td (| StandardAllocationStrategy | | Booking, CampusEvent, |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 106 Td (| FacultyPriorityStrategy | | Role, ResourceType, Status |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 94 Td (+-----------------------------+ +-----------------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 82 Td (\\ /) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 70 Td (\\ /) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 4020 >>
+stream
+0.5 0.5 0.5 RG 0.5 w 40 805 m 555 805 l S
+BT /F1 8 Tf 40 810 Td (CampusFlow: Smart Campus Resource Allocation Engine | Project Report) Tj ET
+0.5 0.5 0.5 RG 0.5 w 40 45 m 555 45 l S
+BT /F1 8 Tf 40 32 Td (VITyarthi Flipped Course Evaluation) Tj ET
+BT /F1 8 Tf 520 32 Td (Page 4) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 770 Td (v v) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 758 Td (+-------------------------------------------------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 746 Td (| PERSISTENCE LAYER |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 734 Td (| DataStore \(In-Memory\) | PersistenceManager |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 722 Td (+-------------------------------------------------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 710 Td (```) Tj ET
+0.8 0.8 0.8 RG 0.5 w 40 682 m 555 682 l S
+BT /F2 11 Tf 0.2 0.2 0.2 rg 40 646 Td (7. Design Diagrams) Tj ET
+BT /F2 10 Tf 0.25 0.25 0.25 rg 40 614 Td (7.1 Use Case Diagram \(Textual Representation\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 598 Td (```) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 586 Td (+---------------------------------------------------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 574 Td (| CampusFlow System |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 562 Td (| |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 550 Td (| [Student] ----> \(Browse Facilities\) |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 538 Td (| ----> \(Request Facility Reservation\) |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 526 Td (| ----> \(View Personal Bookings\) |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 514 Td (| ----> \(RSVP / Ticketing for Campus Events\) |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 502 Td (| |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 490 Td (| [Faculty] ----> \(Request Auto-Approved Academic Booking\) |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 478 Td (| ----> \(Create & Publish Campus Event\) |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 466 Td (| |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 454 Td (| [Admin] ----> \(Review Pending Reservation Queue\) |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 442 Td (| ----> \(Approve / Reject Reservation\) |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 430 Td (| ----> \(Toggle Facility Maintenance State\) |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 418 Td (| ----> \(View System Utilization Analytics\) |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 406 Td (| ----> \(Export System Audit Snapshot\) |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 394 Td (+---------------------------------------------------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 382 Td (```) Tj ET
+BT /F2 10 Tf 0.25 0.25 0.25 rg 40 348 Td (7.2 Process Flow / Workflow Diagram) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 332 Td (```) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 320 Td ([Start Booking Request]) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 308 Td (|) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 296 Td (v) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 284 Td ([Select Facility & TimeSlot \(Date, Start, End\)]) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 272 Td (|) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 260 Td (v) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 248 Td (<Is Facility in Maintenance?> ---- YES ----> [Throw ResourceConflictException) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 236 Td (\(Rejected\)]) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 224 Td (|) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 212 Td (NO) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 200 Td (v) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 188 Td (<Does Slot Overlap with Confirmed/Pending Booking?> -- YES --> [Throw) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 176 Td (ResourceConflictException \(Rejected\)]) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 164 Td (|) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 152 Td (NO) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 140 Td (v) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 128 Td ([Compute Priority Score via Strategy Pattern]) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 116 Td (|) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 104 Td (v) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 92 Td (<Is Requester Faculty or Admin?>) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 80 Td (| |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 68 Td (YES NO) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 4471 >>
+stream
+0.5 0.5 0.5 RG 0.5 w 40 805 m 555 805 l S
+BT /F1 8 Tf 40 810 Td (CampusFlow: Smart Campus Resource Allocation Engine | Project Report) Tj ET
+0.5 0.5 0.5 RG 0.5 w 40 45 m 555 45 l S
+BT /F1 8 Tf 40 32 Td (VITyarthi Flipped Course Evaluation) Tj ET
+BT /F1 8 Tf 520 32 Td (Page 5) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 770 Td (| |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 758 Td (v v) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 746 Td ([Status: CONFIRMED] [Status: PENDING]) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 734 Td (\(Auto-Approved\) \(Queued for Admin Review\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 722 Td (| |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 710 Td (+-----------+-----------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 698 Td (|) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 686 Td (v) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 674 Td ([Save to DataStore]) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 662 Td (|) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 650 Td (v) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 638 Td ([Append to AuditLog]) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 626 Td (|) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 614 Td (v) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 602 Td ([End]) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 590 Td (```) Tj ET
+BT /F2 10 Tf 0.25 0.25 0.25 rg 40 556 Td (7.3 Sequence Diagram: Admin Booking Approval) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 540 Td (```) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 528 Td (AdminUser CliMenu BookingService DataStore AuditLog) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 516 Td (| | | | |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 504 Td (|--Select Req #-->| | | |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 492 Td (| |--approveBooking\(\)->| | |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 480 Td (| | |--findBooking\(\)--->| |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 468 Td (| | |<--Return Booking--| |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 456 Td (| | | | |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 444 Td (| | |--Set CONFIRMED--->| |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 432 Td (| | |--addAuditLog\(\)------------------->|) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 420 Td (| |<--Success Return--| | |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 408 Td (|<--Confirm Msg---| | | |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 396 Td (```) Tj ET
+BT /F2 10 Tf 0.25 0.25 0.25 rg 40 362 Td (7.4 Class / Component Diagram) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 346 Td (```) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 334 Td (+--------------------------+ +-----------------------------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 322 Td (| TimeSlot | | Booking |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 310 Td (+--------------------------+ +-----------------------------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 298 Td (| - date: LocalDate | | - id: String |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 286 Td (| - startTime: LocalTime | | - facilityId: String |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 274 Td (| - endTime: LocalTime | | - requestedByUserId: String |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 262 Td (+--------------------------+ | - timeSlot: TimeSlot |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 250 Td (| + overlapsWith\(TimeSlot\) |<---------| - status: BookingStatus |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 238 Td (| + getDurationMinutes\(\) | | - priorityWeight: int |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 226 Td (+--------------------------+ +-----------------------------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 214 Td (|) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 202 Td (+--------------------------+ |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 190 Td (| Facility | |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 178 Td (+--------------------------+ v) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 166 Td (| - id: String | +-----------------------------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 154 Td (| - name: String | | CampusEvent |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 142 Td (| - type: ResourceType | +-----------------------------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 130 Td (| - capacity: int | | - eventId: String |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 118 Td (| - underMaintenance: bool | | - bookingId: String |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 106 Td (+--------------------------+ | - maxAttendees: int |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 94 Td (| - registeredAttendees: Set<String> |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 82 Td (+--------------------------+ +-----------------------------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 70 Td (| User | | + registerAttendee\(studentId\): bool |) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 4737 >>
+stream
+0.5 0.5 0.5 RG 0.5 w 40 805 m 555 805 l S
+BT /F1 8 Tf 40 810 Td (CampusFlow: Smart Campus Resource Allocation Engine | Project Report) Tj ET
+0.5 0.5 0.5 RG 0.5 w 40 45 m 555 45 l S
+BT /F1 8 Tf 40 32 Td (VITyarthi Flipped Course Evaluation) Tj ET
+BT /F1 8 Tf 520 32 Td (Page 6) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 770 Td (+--------------------------+ +-----------------------------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 758 Td (| - id: String |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 746 Td (| - role: Role |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 734 Td (| - department: String |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 722 Td (+--------------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 710 Td (```) Tj ET
+BT /F2 10 Tf 0.25 0.25 0.25 rg 40 676 Td (7.5 Entity-Relationship \(ER\) Schema Design) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 660 Td (```) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 648 Td (+-------------------+ 1:N +-------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 636 Td (| USER |----------------------------< | BOOKING |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 624 Td (+-------------------+ +-------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 612 Td (| PK id | | PK id |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 600 Td (| fullName | | FK requestedBy |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 588 Td (| email | | FK facilityId |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 576 Td (| role \(ENUM\) | | date |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 564 Td (| department | | startTime |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 552 Td (+-------------------+ | endTime |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 540 Td (| | status \(ENUM\) |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 528 Td (| | priorityScore |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 516 Td (| +-------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 504 Td (| | 1:1) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 492 Td (| |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 480 Td (| 1:N +-------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 468 Td (+--------------------------------------< | CAMPUS_EVENT |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 456 Td (\(RSVP\) +-------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 444 Td (| PK eventId |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 432 Td (| FK bookingId |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 420 Td (| FK organizerId |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 408 Td (| title |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 396 Td (| maxAttendees |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 384 Td (+-------------------+) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 372 Td (```) Tj ET
+0.8 0.8 0.8 RG 0.5 w 40 344 m 555 344 l S
+BT /F2 11 Tf 0.2 0.2 0.2 rg 40 308 Td (8. Design Decisions & Rationale) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 290 Td (1. Pure Java Standard Library Core \(Zero External Runtime Dependencies\):) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 278 Td (- Decision: Avoided heavyweight external frameworks \(Spring Boot, Hibernate\) in) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 266 Td (the runtime execution path.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 254 Td (- Rationale: Ensures the evaluator's automated test harness can compile and) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 242 Td (execute the system seamlessly on any terminal environment using standard javac and) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 230 Td (java without requiring dependency resolution or internet access.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 218 Td (2. Strategy Pattern for Priority Scheduling:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 206 Td (- Decision: Extracted scoring logic into PriorityAllocationStrategy implemented by) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 194 Td (StandardAllocationStrategy and FacultyPriorityAllocationStrategy.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 182 Td (- Rationale: Enables institutions to dynamically alter allocation policies \(e.g.,) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 170 Td (peak exam hours vs. cultural festival season\) without modifying the core booking) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 158 Td (engine, complying with the Open/Closed Principle.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 146 Td (3. Dual Execution Mode \(Interactive CLI + --demo Headless Pipeline\):) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 134 Td (- Decision: Supported both interactive console menus and automated script) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 122 Td (execution via --demo.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 110 Td (- Rationale: Ensures human evaluators can manually interact with the application,) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 98 Td (while automated grading pipelines can run non-interactively and verify all) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 86 Td (requirements in under 3 seconds.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 74 Td (4. Thread-Safe Concurrency Primitives:) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 4920 >>
+stream
+0.5 0.5 0.5 RG 0.5 w 40 805 m 555 805 l S
+BT /F1 8 Tf 40 810 Td (CampusFlow: Smart Campus Resource Allocation Engine | Project Report) Tj ET
+0.5 0.5 0.5 RG 0.5 w 40 45 m 555 45 l S
+BT /F1 8 Tf 40 32 Td (VITyarthi Flipped Course Evaluation) Tj ET
+BT /F1 8 Tf 520 32 Td (Page 7) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 770 Td (- Decision: Used ConcurrentHashMap, CopyOnWriteArrayList, and synchronized methods) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 758 Td (for RSVP ticketing and booking requests.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 746 Td (- Rationale: Eliminates race conditions during concurrent event reservations and) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 734 Td (guarantees data integrity.) Tj ET
+0.8 0.8 0.8 RG 0.5 w 40 706 m 555 706 l S
+BT /F2 11 Tf 0.2 0.2 0.2 rg 40 670 Td (9. Implementation Details) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 652 Td (- Package Hierarchy: Clean layered structure \(com.campusflow.model,) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 640 Td (com.campusflow.service, com.campusflow.strategy, com.campusflow.repository,) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 628 Td (com.campusflow.exception, com.campusflow.ui\).) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 616 Td (- Interval Overlap Logic: Encapsulated in TimeSlot.overlapsWith\(\):) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 604 Td ($$\\text{Overlap} = \(\\text{date}_1 == \\text{date}_2\) \\land \(\\text{start}_1 <) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 592 Td (\\text{end}_2\) \\land \(\\text{end}_1 > \\text{start}_2\)$$) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 580 Td (- Custom Exceptions: Structured hierarchy inheriting from CampusFlowException) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 568 Td (providing detailed diagnostic field metadata.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 556 Td (- Audit Logging: Thread-safe append-only ledger tracking all administrative) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 544 Td (actions, logins, state transitions, and conflict events.) Tj ET
+0.8 0.8 0.8 RG 0.5 w 40 516 m 555 516 l S
+BT /F2 11 Tf 0.2 0.2 0.2 rg 40 480 Td (10. Screenshots & Execution Results) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 462 Td (The application includes an automated demonstration runner \(./run.sh --demo\) that) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 450 Td (executes all modules sequentially:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 430 Td (```) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 418 Td ([STEP 1] Testing Authentication & RBAC) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 406 Td (-> Admin authenticated: Dr. Rajesh Sharma \(ADM01\) - System Administrator [Estate) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 394 Td (Office]) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 382 Td (-> Student authenticated: Aarav Patel \(STU01\) - Student [Computer Science]) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 370 Td (-> Authentication & Session Management: PASSED) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 350 Td ([STEP 2] Querying Facility Inventory) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 338 Td (-> Total facilities registered: 5) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 326 Td ([FAC-AUD-01] Sarojini Naidu Central Auditorium \(Auditorium, Cap: 600, Loc: Main) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 314 Td (Campus Block A\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 302 Td ([FAC-SEM-02] Aryabhata Seminar Hall \(Seminar Hall, Cap: 120, Loc: Science Block B\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 290 Td ([FAC-LAB-03] Alan Turing Computing Lab \(Computer Lab, Cap: 75, Loc: Tech Tower C\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 278 Td ([FAC-CLS-04] Smart Classroom 301 \(Smart Classroom, Cap: 90, Loc: Academic Wing D\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 266 Td ([FAC-SPT-05] Indoor Badminton Arena \(Sports Complex, Cap: 150, Loc: Student) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 254 Td (Activity Center\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 242 Td (-> Facility Inventory Discovery: PASSED) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 222 Td ([STEP 3] Booking Creation & Priority Calculation) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 210 Td (-> Student created reservation: Booking #BKG-9A2E1F | Facility: FAC-SEM-02 | User:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 198 Td (STU01 | Slot: 2026-09-21 [14:00 - 17:00] | Status: PENDING | Priority: 10) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 186 Td (-> Booking Request Workflow: PASSED) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 166 Td ([STEP 4] Verifying Conflict Detection Engine) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 154 Td (-> Attempting overlapping reservation on FAC-SEM-02 at 2026-09-21 [15:00 -) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 142 Td (16:00]...) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 130 Td (-> SUCCESS: Conflict successfully detected and rejected!) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 118 Td (Caught Exception: Time-slot conflict detected with Booking [BKG-9A2E1F] by User) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 106 Td ([STU01]) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 94 Td (-> Conflict Detection Engine: PASSED) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 74 Td ([STEP 5] Admin Review & Approval Queue) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 20 0 R >>
+endobj
+20 0 obj
+<< /Length 4818 >>
+stream
+0.5 0.5 0.5 RG 0.5 w 40 805 m 555 805 l S
+BT /F1 8 Tf 40 810 Td (CampusFlow: Smart Campus Resource Allocation Engine | Project Report) Tj ET
+0.5 0.5 0.5 RG 0.5 w 40 45 m 555 45 l S
+BT /F1 8 Tf 40 32 Td (VITyarthi Flipped Course Evaluation) Tj ET
+BT /F1 8 Tf 520 32 Td (Page 8) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 770 Td (-> Admin approved booking BKG-9A2E1F) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 758 Td (-> Updated Status: CONFIRMED \(Approved by Admin Dr. Rajesh Sharma\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 746 Td (-> Approval Workflow: PASSED) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 726 Td ([STEP 6] Event Lifecycle & RSVP Ticketing) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 714 Td (-> Event Created: [EVT-C814D0] VIT Robotics Hackathon 2026 | Org: STU01 | Seats:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 702 Td (0/100 | Published: true) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 690 Td (-> Attendee Diya Mehta RSVP status: SUCCESS) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 678 Td (-> Available Seats: 99 / 100) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 666 Td (-> Event Ticketing & Capacity: PASSED) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 646 Td ([STEP 7] Generating Real-Time System Analytics) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 634 Td (Total Facilities Managed : 5) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 622 Td (Operational Facilities : 5) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 610 Td (Confirmed Active Bookings : 2) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 598 Td (System Booking Approval Rate : 100.0%) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 586 Td (-> Analytics Calculation: PASSED) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 566 Td ([STEP 8] Verifying Persistence & Audit Snapshot) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 554 Td (-> Audit report written to: ./data/campusflow_audit_report.txt \(Size: 2180 bytes\)) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 542 Td (-> State Persistence & Audit Logging: PASSED) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 530 Td (```) Tj ET
+0.8 0.8 0.8 RG 0.5 w 40 502 m 555 502 l S
+BT /F2 11 Tf 0.2 0.2 0.2 rg 40 466 Td (11. Testing Approach) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 448 Td (Testing is implemented at two distinct levels:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 436 Td (1. JUnit 5 Test Suite \(BookingServiceTest.java\): Standard automated assertions for) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 424 Td (Maven test workflows.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 412 Td (2. Standalone Zero-Dependency Test Harness \(StandaloneTestRunner.java\): Executes) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 400 Td (pure Java assertions directly via javac without requiring external libraries.) Tj ET
+BT /F2 10 Tf 0.25 0.25 0.25 rg 40 366 Td (Test Matrix:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 358 Td (| Test ID | Test Case Description | Target Component | Expected Result | Status |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 346 Td (| :--- | :--- | :--- | :--- | :--- |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 334 Td (| TC-01 | Interval overlap boundary check | TimeSlot | Overlap detected on) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 322 Td (intersecting windows; adjacent windows allowed | PASS |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 310 Td (| TC-02 | Valid credential login | AuthService | Successfully authenticates user) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 298 Td (and issues session | PASS |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 286 Td (| TC-03 | Invalid password rejection | AuthService | Throws UnauthorizedException) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 274 Td (| PASS |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 262 Td (| TC-04 | Duplicate facility ID guard | FacilityService | Throws) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 250 Td (ValidationException on existing ID | PASS |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 238 Td (| TC-05 | Double-booking clash detection | BookingService | Throws) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 226 Td (ResourceConflictException | PASS |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 214 Td (| TC-06 | Student request lifecycle | BookingService | Initial state PENDING,) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 202 Td (updates to CONFIRMED on admin approval | PASS |) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 190 Td (| TC-07 | Event capacity overflow guard | EventService | Throws) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 178 Td (ValidationException when event capacity exceeds facility | PASS |) Tj ET
+0.8 0.8 0.8 RG 0.5 w 40 150 m 555 150 l S
+BT /F2 11 Tf 0.2 0.2 0.2 rg 40 114 Td (12. Challenges Faced) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 104 Td (1. Interval Overlap Boundary Edge Cases: Defining precise mathematical conditions) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 92 Td (for contiguous slots \(e.g., Slot 1 ending at 14:00 and Slot 2 starting at 14:00\).) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 80 Td (Resolved by defining half-open interval checks where end-point adjacency does not) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 68 Td (trigger a collision.) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 22 0 R >>
+endobj
+22 0 obj
+<< /Length 3442 >>
+stream
+0.5 0.5 0.5 RG 0.5 w 40 805 m 555 805 l S
+BT /F1 8 Tf 40 810 Td (CampusFlow: Smart Campus Resource Allocation Engine | Project Report) Tj ET
+0.5 0.5 0.5 RG 0.5 w 40 45 m 555 45 l S
+BT /F1 8 Tf 40 32 Td (VITyarthi Flipped Course Evaluation) Tj ET
+BT /F1 8 Tf 520 32 Td (Page 9) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 770 Td (2. Deterministic Evaluation in Headless Environments: Automated grading) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 758 Td (environments often fail when waiting for interactive console input. Resolved by) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 746 Td (engineering the --demo execution flag, allowing the grader to run the entire) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 734 Td (verification suite non-interactively.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 722 Td (3. Decoupled Event Capacity Constraints: Ensuring event creation guarantees) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 710 Td (attendee counts do not breach physical venue capacity required cross-service) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 698 Td (validation linking EventService, BookingService, and FacilityService.) Tj ET
+0.8 0.8 0.8 RG 0.5 w 40 670 m 555 670 l S
+BT /F2 11 Tf 0.2 0.2 0.2 rg 40 634 Td (13. Learnings & Key Takeaways) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 624 Td (- Mastery of Java Object-Oriented paradigms \(polymorphism, abstraction,) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 612 Td (encapsulation\).) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 600 Td (- Implementation of the Strategy Pattern for algorithmic business rules.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 588 Td (- Practical experience with concurrent collections and thread-safe) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 576 Td (synchronization.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 564 Td (- Designing zero-dependency software architecture that runs reliably on diverse) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 552 Td (terminal environments.) Tj ET
+0.8 0.8 0.8 RG 0.5 w 40 524 m 555 524 l S
+BT /F2 11 Tf 0.2 0.2 0.2 rg 40 488 Td (14. Future Enhancements) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 478 Td (- Integration with campus IoT hardware \(smart electronic door locks and biometric) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 466 Td (badge scanners\).) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 454 Td (- Real-time notification services via SMS/Email \(Twilio / SendGrid integration\).) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 442 Td (- Relational database integration \(PostgreSQL / JDBC connection pooling\) for) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 430 Td (multi-year historical storage.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 50 418 Td (- RESTful API layer and web/mobile dashboards using Spring Boot and React.) Tj ET
+0.8 0.8 0.8 RG 0.5 w 40 390 m 555 390 l S
+BT /F2 11 Tf 0.2 0.2 0.2 rg 40 354 Td (15. References) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 344 Td (1. Bloch, Joshua. Effective Java \(3rd Edition\). Addison-Wesley Professional, 2018.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 332 Td (2. Gamma, E., Helm, R., Johnson, R., & Vlissides, J. Design Patterns: Elements of) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 320 Td (Reusable Object-Oriented Software. Addison-Wesley, 1994.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 308 Td (3. Oracle Java Documentation: Java Platform, Standard Edition 8 / 11 / 17 API) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 296 Td (Specification.) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 284 Td (4. VITyarthi Project Guidelines & Rubrics Document:) Tj ET
+BT /F1 9 Tf 0.1 0.1 0.1 rg 40 272 Td (BuildYourOwnProjectVITyarthi.pdf.) Tj ET
+endstream
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000175 00000 n 
+0000000272 00000 n 
+0000000374 00000 n 
+0000000510 00000 n 
+0000005269 00000 n 
+0000005405 00000 n 
+0000010856 00000 n 
+0000010993 00000 n 
+0000015794 00000 n 
+0000015932 00000 n 
+0000020005 00000 n 
+0000020143 00000 n 
+0000024667 00000 n 
+0000024805 00000 n 
+0000029595 00000 n 
+0000029733 00000 n 
+0000034706 00000 n 
+0000034844 00000 n 
+0000039715 00000 n 
+0000039853 00000 n 
+trailer
+<< /Size 23 /Root 1 0 R >>
+startxref
+43348
+%%EOF
